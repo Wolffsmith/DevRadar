@@ -10,13 +10,10 @@ const server = http.Server(app);
 
 setupWebsocket(server);
 
-mongoose.connect(
-  "mongodb+srv://fernandoWolff:omnistack@cluster0-qtyvb.mongodb.net/week10?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  }
-);
+mongoose.connect("INSERT YOUR URL FOR A MONGODB DATABASE", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 app.use(cors());
 app.use(express.json());

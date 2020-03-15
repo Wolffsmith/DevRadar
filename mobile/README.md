@@ -2,11 +2,13 @@
 
 DevRadar is a complete app to register and search Devs near you.
 
-This is the web installation.
+This is the mobile installation.
 
 ## Installation
 
 ##### Use the package manager of your preference. I've used yarn, so the examples will be with yarn.
+
+##### This project uses Expo, so you will have to have a phone with Expo installed.
 
 ### Dependencies
 
